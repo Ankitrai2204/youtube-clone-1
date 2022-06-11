@@ -1,0 +1,1192 @@
+a<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/ff6d44ecaf.js" crossorigin="anonymous"></script>
+
+    <!-- Google font icon -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- CSS Link -->
+
+    <link rel="stylesheet" href="./style.css">
+
+    <title>Youtube Home</title>
+
+</head>
+
+<body>
+    <!-- Navbar Starts -->
+
+    <div class="navBar">
+        <div class="navbar_items">
+            <div class="navbar_item">
+                <div class="navBar_home">
+                    <a href="#" id="btn" onclick="toggleHide()"><i class="material-icons">
+                            menu</i></a>
+                </div>
+                <div class="navBar_logo">
+                    <a href="https://www.youtube.com/"><img src="./Images/youtube logo.png" alt="youtube logo"
+                            class="navBar_logo_img" style="width: 120px; "></a>
+                </div>
+            </div>
+
+            <div class="navBar_search" id="search_desktop">
+                <div>
+                    <input type="text" name="" value="" placeholder="Search" class="navBar_Search_input">
+                </div>
+
+                <div>
+                    <a href="#"><i class="material-icons  navBar_search_icon" style="font-size: 20px;">
+                            search
+                        </i></a>
+
+                </div>
+                <div>
+                    <a href="#"><i class="material-icons navBar_search_mic">
+                            mic
+                        </i></a>
+                </div>
+            </div>
+
+            <div class="navBar_icons">
+
+                <div>
+                    <a href="../08_New Video Upload/Video_Upload_part1.html"><i class="material-icons">
+                            file_upload
+                        </i></a>
+                </div>
+
+                <div>
+                    <a href="#"><i class="material-icons">
+                            apps
+                        </i></a>
+                </div>
+
+                <div>
+                    <a href="#"><i class="material-icons">
+                            notifications
+                        </i></a>
+                </div>
+
+                <div>
+                    <a href="../03_Login page/01_google_Login_Page.html"><img src="images/ankit.jpeg" alt="user logo"
+                            title="Sign in" width="40px"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr class="hr_line">
+    <!-- Navbar ends -->
+
+    <!-- Sidebar Starts -->
+    <div class="core_sidebar">
+        <div class="sidebar" id="sidebar">
+
+            <div class="sidebar_icons">
+                <div style="color: red;" class="sidebar_icon">
+                    <a href="#"><i class="material-icons" style="color: red;">
+                            home
+                        </i></a>
+                    <p style="font-size: 12px;"><a href="./index.html">Home</a></p>
+                </div>
+                <div class="sidebar_icon">
+                    <a href="../09_explore/explore.html"><i class="material-icons">
+                            explore
+                        </i></a>
+                    <p style="font-size: 12px;">Explore</p>
+                </div>
+
+                <div class="sidebar_icon">
+                    <a href="#"><i class="material-icons">
+                            subscriptions
+                        </i></a>
+                    <p style="font-size: 12px;">Subscriptions</p>
+                </div>
+
+                <div class="sidebar_icon">
+                    <a href="../01_Home page/index.html"><i class="material-icons">
+                            video_library
+                        </i></a>
+                    <p style="font-size: 12px;">Library</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sidebar Ends -->
+
+
+        <!-- ON CLICK SIDEBAR STARTS -->
+
+        <!-- Sidebar Starts -->
+        <div class="core_sidebar2" id="full_Sidebar" style="display: none; width: 70px;">
+            <div class="sidebar2">
+
+                <div class="sidebar_icons2" style=" padding-top: 15px;background-color: rgb(231, 231, 231);">
+
+                    <!-- Icon1 -->
+
+                    <div style="color: red;" class="sidebar_icon2">
+                        <a href="#"><i class="material-icons" style="color: red;">
+                                home
+                            </i></a>
+                    </div>
+                    <div class="sidebar_nav">
+                        <p>Home</p>
+                    </div>
+
+                </div>
+
+                <!-- icon2 -->
+                <div class="sidebar_icons2">
+                    <div class="sidebar_icon2">
+                        <a href="#"><i class="material-icons">
+                                explore
+                            </i></a>
+                    </div>
+                    <div class="sidebar_nav">
+                        <p>Explore</p>
+                    </div>
+
+                </div>
+
+                <!-- icon2 -->
+                <div class="sidebar_icons2">
+                    <div class="sidebar_icon2">
+                        <a href="#"><i class="material-icons">
+                                subscriptions
+                            </i></a>
+                    </div>
+                    <div class="sidebar_nav">
+                        <p>Subscriptions</p>
+                    </div>
+
+                </div>
+
+                <hr>
+                <!-- icon3 -->
+                <div class="sidebar_icons2">
+                    <div class="sidebar_icon2">
+                        <a href="#"><i class="material-icons">
+                                video_library
+
+                            </i></a>
+                    </div>
+                    <div class="sidebar_nav">
+                        <p>Library</p>
+                    </div>
+
+                </div>
+
+
+                <!-- icon4 -->
+                <div class="sidebar_icons2">
+                    <div class="sidebar_icon2">
+                        <a href="#"><i class="material-icons">
+                                history
+                            </i></a>
+                    </div>
+                    <div class="sidebar_nav">
+                        <p>History</p>
+                    </div>
+
+                </div>
+
+                <!-- icon5 -->
+                <div class="sidebar_icons2">
+                    <div class="sidebar_icon2">
+                        <a href="#"><i class="material-icons">
+                                watch_later
+                            </i></a>
+                    </div>
+                    <div class="sidebar_nav">
+                        <p>Watch later</p>
+                    </div>
+
+                </div>
+
+                <!-- icon6 -->
+                <div class="sidebar_icons2">
+                    <div class="sidebar_icon2">
+                        <a href="#"><i class="material-icons">
+                                thumb_up
+                            </i></a>
+                    </div>
+                    <div class="sidebar_nav">
+                        <p>Likes</p>
+                    </div>
+
+                </div>
+                <hr>
+
+                <!-- icon7 -->
+                <p style="color: gray; margin-left: 8px;"><strong>MORE FROM YOUTUBE</strong></p>
+                <div class="sidebar_icons2">
+                    <div class="sidebar_icon2">
+                        <a href="#"><i class="material-icons">
+                                play_circle_filled
+                            </i></a>
+                    </div>
+                    <div class="sidebar_nav">
+                        <p>YouTube Video Premium</p>
+                    </div>
+
+                </div>
+
+                <!-- icon8 -->
+                <div class="sidebar_icons2">
+                    <div class="sidebar_icon2">
+                        <a href="#"><i class="material-icons">
+                                theaters
+                            </i></a>
+                    </div>
+                    <div class="sidebar_nav">
+                        <p>Movies</p>
+                    </div>
+                </div>
+                <hr>
+
+                <!-- icon9 -->
+                <p style="color: gray; margin-left: 8px;"><strong>FUN & LEARN TOGETHER</strong></p>
+
+                <div class="sidebar_icons2">
+                    <div class="sidebar_icon2">
+                        <a href="#"><i class="material-icons">
+                                sports_esports
+                            </i></a>
+                    </div>
+                    <div class="sidebar_nav">
+                        <p>Gaming</p>
+                    </div>
+
+                </div>
+
+                <!-- icon10 -->
+                <div class="sidebar_icons2">
+                    <div class="sidebar_icon2">
+                        <a href="#"><i class="material-icons">
+                                online_prediction
+                            </i></a>
+                    </div>
+                    <div class="sidebar_nav">
+                        <p>Live</p>
+                    </div>
+
+                </div>
+
+                <!-- icon11 -->
+                <div class="sidebar_icons2">
+                    <div class="sidebar_icon2">
+                        <a href="#"><i class="material-icons">
+                                emoji_objects
+                            </i></a>
+                    </div>
+                    <div class="sidebar_nav">
+                        <p>Learning</p>
+                    </div>
+
+                </div>
+
+
+                <!-- icon12 -->
+                <div class="sidebar_icons2">
+                    <div class="sidebar_icon2">
+                        <a href="#"><i class="material-icons">
+                                emoji_events
+                            </i></a>
+                    </div>
+                    <div class="sidebar_nav">
+                        <p>Sports</p>
+                    </div>
+
+                </div>
+                <hr>
+
+                <!-- icon13 -->
+                <div class="sidebar_icons2">
+                    <div class="sidebar_icon2">
+                        <a href="#"><i class="material-icons">
+                                settings
+                            </i></a>
+                    </div>
+                    <div class="sidebar_nav">
+                        <p>Settings</p>
+                    </div>
+
+                </div>
+
+                <!-- icon14 -->
+                <div class="sidebar_icons2">
+                    <div class="sidebar_icon2">
+                        <a href="#"><i class="material-icons">
+                                assistant_photo
+                            </i></a>
+                    </div>
+                    <div class="sidebar_nav">
+                        <p>Report history</p>
+                    </div>
+
+                </div>
+
+                <!-- icon15 -->
+                <div class="sidebar_icons2">
+                    <div class="sidebar_icon2">
+                        <a href="#"><i class="material-icons">
+                                contact_support
+                            </i></a>
+                    </div>
+                    <div class="sidebar_nav">
+                        <p>Help</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ON CLICK SIDEBAR Ends -->
+        
+
+        <!-- Video Suggestions starts -->
+        <div class="videoSuggestions">
+
+            <div class="video_suggestion">
+                <a href="../01_Home page/index.html" class="video_suggestion_tag"
+                    style="color: white; background-color: black;">all</a>
+            </div>
+
+            <div class="video_suggestion">
+                <a href="../04_Single page-home/singlePage-home.html" class="video_suggestion_tag">Learn</a>
+            </div>
+
+            <div class="video_suggestion">
+                <a href="../06_Music/singlePage-home.html" class="video_suggestion_tag">Music</a>
+            </div>
+           
+
+            <div class="video_suggestion">
+                <a href="../07_Comedy/singlePage-home.html" class="video_suggestion_tag">Comedy</a>
+            </div>
+
+            
+
+            <div class="video_suggestion">
+                <a href="../12_Sandeep Maheshwari/motivation.html" class="video_suggestion_tag">MOTIVATIONS</a>
+            </div>
+
+            <div class="video_suggestion">
+                <a href="../04_Single page-home/singlePage-home.html" class="video_suggestion_tag">HTML</a>
+            </div>
+
+            <div class="video_suggestion">
+                <a href="../04_Single page-home/singlePage-home.html" class="video_suggestion_tag">JavaScript</a>
+            </div>
+
+            <div class="video_suggestion">
+                <a href="../04_Single page-home/singlePage-home.html" class="video_suggestion_tag">Java</a>
+            </div>
+
+            <div class="video_suggestion">
+                <a href="../04_Single page-home/singlePage-home.html" class="video_suggestion_tag">Coding</a>
+            </div>
+
+            
+        </div>
+        <!-- Video Suggestions Ends -->
+
+        <!-- Video List Starts -->
+       
+
+        <div class="videos_list">
+            <div class="videos">
+                <!-- Video1 -->
+                <div class="single_video">
+
+                    <div class="video_thumbnail">
+                        <div><iframe width="560" height="315" src="https://www.youtube.com/embed/eM8Mjuq4MwQ "
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe></div>
+                        <p class="video_time">6:34</p>
+                    </div>
+
+                    <div class="video_details">
+                        <div class="channel_img">
+                            <img src="./Images/yrf.png.png" alt="channel logo">
+                        </div>
+                        <div class="video_title">
+                            <h4>Aankhein Khuli Song | Mohabbatein | Shah Rukh Khan, Aishwarya Rai | Lata Mangeshkar, Udit Narayan</h4>
+                            <p>YRF<span class="material-icons">
+                                    check_circle
+                                </span></p>
+                            <p>771,000 views. 2 mothes Ago</p>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- Video 2 -->
+
+                <div class="single_video">
+
+                    <div class="video_thumbnail">
+                        <div><iframe width="120px" height="auto" src="https://www.youtube.com/embed/I297fWlMDx0"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe></div>
+                        <p class="video_time">11:34</p>
+                    </div>
+
+                    <div class="video_details">
+                        <div class="channel_img">
+                            <img src="./Images/ashishchanclani4th.jfif" alt="channel logo">
+                        </div>
+                        <div class="video_title">
+                            <h4>The Mummy | Ashish Chanchlani</h4>
+                            <p> ashish chanchlani vines<span class="material-icons">
+                                    check_circle
+                                </span></p>
+                            <p>895,000 views. 11 mothes Ago</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Video4 -->
+
+                <div class="single_video">
+
+                    <div class="video_thumbnail">
+                        <div><iframe width="560" height="315" src="https://www.youtube.com/embed/zSt-KI0HryY"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe></div>
+                        <p class="video_time">11:34</p>
+                    </div>
+
+                    <div class="video_details">
+                        <div class="channel_img">
+                            <img src="./Images/apna college.png" alt="">
+                        </div>
+                        <div class="video_title">
+                            <h4>Ways to add Java Script to Web Pages?</h4>
+                            <p>Apna College<span class="material-icons">
+                                    check_circle
+                                </span></p>
+                            <p>17,446 views. Jul 6, 2021</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Video3 -->
+
+                <div class="single_video">
+
+                    <div class="video_thumbnail">
+                        <div><iframe width="560" height="315" src="https://www.youtube.com/embed/0jUj3rfO7eM"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe></div>
+                        <p class="video_time">8:34</p>
+                    </div>
+
+                    <div class="video_details">
+                        <div class="channel_img">
+                            <img src="./Images/carryminati.jpg" alt="">
+                        </div>
+                        <div class="video_title">
+                            <h4>THARA BHAiiiii | CARRYMINATI</h4>
+                            <p>carryminati <span class="material-icons">
+                                    check_circle
+                                </span></p>
+                            <p>6,546,695 views. Jan 19 ,2022</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Video4 -->
+
+                <div class="single_video">
+
+                    <div class="video_thumbnail">
+                        <div><iframe width="560" height="315" src="https://www.youtube.com/embed/eK0IIyBlYew "
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe></div>
+                        <p class="video_time">12:34</p>
+                    </div>
+
+                    <div class="video_details">
+                        <div class="channel_img">
+                            <img src="./Images/sony music.png" alt="">
+                        </div>
+                        <div class="video_title">
+                            <h4>Tera Zikr - Darshan Raval | Official Video - Latest New Hit Song</h4>
+                            <p>
+                                SonyMusicIndiaVEVO
+                                 <span class="material-icons">
+                                    check_circle
+                                </span></p>
+                            <p>241,898,388 views. Nov 9, 2017</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Video4 -->
+
+                <div class="single_video">
+
+                    <div class="video_thumbnail">
+                        <div><iframe width="560" height="315" src="https://www.youtube.com/embed/krCpn6RrNX8"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe></div>
+                        <p class="video_time">95:34</p>
+                    </div>
+
+                    <div class="video_details">
+                        <div class="channel_img">
+                            <img src="./Images/goldmines17th.jfif" alt="">
+                        </div>
+                        <div class="video_title">
+                            <h4>Madam Geeta Rani (Raatchasi) 2020 New Released Hindi Dubbed Full Movie | Jyothika, Hareesh Peradi</h4>
+                            <p>Goldmines
+                                <span class="material-icons">
+                                    check_circle
+                                </span></p>
+                            <p>2,560 viewsJul 21, 2021</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Video4 -->
+
+                <div class="single_video">
+
+                    <div class="video_thumbnail">
+                        <div><iframe width="560" height="315" src="https://www.youtube.com/embed/BFG8I8DB-gg"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe></div>
+                        <p class="video_time">09:36</p>
+                    </div>
+
+                    <div class="video_details">
+                        <div class="channel_img">
+                            <img src="./Images/jaspreetsingh2nd.jfif" alt="">
+                        </div>
+                        <div class="video_title">
+                            <h4>Papa ki Brandy & Gully Cricket | Stand-Up Comedy by Parvinder Singh</h4>
+                            <p>Parvider singh<span class="material-icons">
+                                    check_circle
+                                </span></p>
+                            <p>4,842,201 viewsJun 13, 2019</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Video4 -->
+
+                <div class="single_video">
+
+                    <div class="video_thumbnail">
+                        <div><iframe width="560" height="315" src="https://www.youtube.com/embed/-O7a9Oro1KI"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe></div>
+                        <p class="video_time">32:50</p>
+                    </div>
+
+                    <div class="video_details">
+                        <div class="channel_img">
+                            <img src="./Images/ashishchanclani4th.jfif" alt="">
+                        </div>
+                        <div class="video_title">
+                            <h4>OTP The Lottery : Chapter 1 | Ashish Chanchlani</h4>
+                            <p>Ashish chanchlani vines<span class="material-icons">
+                                    check_circle
+                                </span></p>
+                            <p>40,654,897 views.Jun 30, 2021</p>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <!-- Video5 -->
+
+                <div class="single_video">
+
+                    <div class="video_thumbnail">
+                        <div><iframe width="560" height="315" src="https://www.youtube.com/embed/64Ft-NbYurw"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe></div>
+                        <p class="video_time">12:34</p>
+                    </div>
+
+                    <div class="video_details">
+                        <div class="channel_img">
+                            <img src="./Images/liveinsan6th.jfif" alt="">
+                        </div>
+                        <div class="video_title">
+                            <h4>Deer Simulator - Ye Deer Hai Ya Spider Man😂 | Funniest Game Ever</h4>
+                            <p>Live Insaan <span class="material-icons">
+                                    check_circle
+                                </span></p>
+                            <p>7,457,882 views. jan 25, 2020</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Video 6 -->
+                <div class="single_video">
+
+                    <div class="video_thumbnail">
+                        <div><iframe width="560" height="315" src="https://www.youtube.com/embed/LtLJRNBHOKc"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe></div>
+                        <p class="video_time">13:34</p>
+                    </div>
+
+                    <div class="video_details">
+                        <div class="channel_img">
+                            <img src="./Images/ashishchanclani4th.jfif" alt="">
+                        </div>
+                        <div class="video_title">
+                            <h4>Online Parent Teacher Meeting | Ashish Chanchlani
+                            </h4>
+                            <p>Ashish Chanchalani vines <span class="material-icons">
+                                    check_circle
+                                </span></p>
+                            <p>34,971 viewsJul 25, 2021</p>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <!-- Video 7 -->
+                <div class="single_video">
+
+                    <div class="video_thumbnail">
+                        <div><iframe width="560" height="315" src="https://www.youtube.com/embed/Xiifgxw-z54"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe></div>
+                        <p class="video_time">28:56</p>
+                    </div>
+
+                    <div class="video_details">
+                        <div class="channel_img">
+                            <img src="./Images/ashishchanclani4th.jfif" alt="">
+                        </div>
+                        <div class="video_title">
+                            <h4>OTP The Lottery: Chapter 2 | Ashish Chanchlani
+                            </h4>
+                            <p>Ashish chanchlani vines <span class="material-icons">
+                                    check_circle
+                                </span></p>
+                            <p>1,823,062 views. Dec 25, 2019</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Video4 -->
+
+                <div class="single_video">
+
+                    <div class="video_thumbnail">
+                        <div><iframe width="560" height="315" src="https://www.youtube.com/embed/c9IhX_rkrZ8"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe></div>
+                        <p class="video_time">11:02</p>
+                    </div>
+
+                    <div class="video_details">
+                        <div class="channel_img">
+                            <img src="./Images/nishantchahar10th.jpeg" alt="">
+                        </div>
+                        <div class="video_title">
+                            <h4>Companies paying more than FAANG! 🔥💯 | 15 Alternatives to FAANG 😎 | CTC Breakup</h4>
+                            <p>Nishant chahar<span class="material-icons">
+                                    check_circle
+                                </span></p>
+                            <p>48,691 views. Aug 7, 2021</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Video8 -->
+
+                <div class="single_video">
+
+                    <div class="video_thumbnail">
+                        <div><iframe width="560" height="315" src="https://www.youtube.com/embed/rVjoKuuPMl0"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe></div>
+                        <p class="video_time">11:35</p>
+                    </div>
+
+                    <div class="video_details">
+                        <div class="channel_img">
+                            <img src="./Images/9th.jfif" alt="">
+                        </div>
+                        <div class="video_title">
+                            <h4>5 BEST Investments That'll Make You RICH!</h4>
+                            <p>Ishan sharma <span class="material-icons">
+                                    check_circle
+                                </span></p>
+                            <p>16,233 views. Feb 8, 2022</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Video9 -->
+
+                <div class="single_video">
+
+                    <div class="video_thumbnail">
+                        <div><iframe width="560" height="315" src="https://www.youtube.com/embed/P8QhTGqRMxk"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe></div>
+                        <p class="video_time">42:34</p>
+                    </div>
+
+                    <div class="video_details">
+                        <div class="channel_img">
+                            <img src="./Images/harshbeniwal12th.png" alt="">
+                        </div>
+                        <div class="video_title">
+                            <h4>A Day With a Cringe Youtuber | Harsh Beniwal</h4>
+                            <p>Harsh Beniwal <span class="material-icons">
+                                    check_circle
+                                </span></p>
+                            <p>16,875,655 views. Dec 16, 2021</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Video4 -->
+
+                <div class="single_video">
+
+                    <div class="video_thumbnail">
+                        <div><iframe width="560" height="315" src="https://www.youtube.com/embed/eDiA1p5DlLg"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe></div>
+                        <p class="video_time">14:34</p>
+                    </div>
+
+                    <div class="video_details">
+                        <div class="channel_img">
+                            <img src="./Images/sandeep maheshwari.png" alt="">
+                        </div>
+                        <div class="video_title">
+                            <h4>World's Most Viewed Life Changing Video By Sandeep Maheshwari | Hindi</h4>
+                            <p>Sandeep Maheshwari<span class="material-icons">
+                                    check_circle
+                                </span></p>
+                            <p>50,908,940 views. Nov 24, 2012</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Video10 -->
+
+                <div class="single_video">
+
+                    <div class="video_thumbnail">
+                        <div><iframe width="560" height="315" src="https://www.youtube.com/embed/szJGsKC4f0I"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe></div>
+                        <p class="video_time">15:34</p>
+                    </div>
+
+                    <div class="video_details">
+                        <div class="channel_img">
+                            <img src="./Images/sony.png" alt="">
+                        </div>
+                        <div class="video_title">
+                            <h4>घर से निकाले गए Entrepreneur को Sharks ने दी Deal | Shark Tank India | Pitches</h4>
+                            <p>Sony India <span class="material-icons">
+                                    check_circle
+                                </span></p>
+                            <p>1,122,935 views. Feb 10, 2022</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Video4 -->
+
+                <div class="single_video">
+
+                    <div class="video_thumbnail">
+                        <div><iframe width="560" height="315" src="https://www.youtube.com/embed/hi0301FRL3g"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe></div>
+                        <p class="video_time">04:02</p>
+                    </div>
+
+                    <div class="video_details">
+                        <div class="channel_img">
+                            <img src="./Images/indianmusic.png" alt="">
+                        </div>
+                        <div class="video_title">
+                            <h4>Ek Tarfa Reprise - Darshan Raval | Official Music Video | Romantic Song 2020 | Indie Music Label</h4>
+                            <p>
+                                Indie Music Label<span class="material-icons">
+                                    check_circle
+                                </span></p>
+                            <p>37,174 views. Jun 24, 2021</p>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <!-- Video 2 -->
+
+                <div class="single_video">
+
+                    <div class="video_thumbnail">
+                        <div><iframe width="560" height="315" src="https://www.youtube.com/embed/WzJXOG1vDxg"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe></div>
+                        <p class="video_time">11:34</p>
+                    </div>
+
+                    <div class="video_details">
+                        <div class="channel_img">
+                            <img src="./Images/flyingbeast.jfif" alt="channel logo">
+                        </div>
+                        <div class="video_title">
+                            <h4>Shooting with Family for a Big Project !!
+                             </h4>
+                            <p>Flying Beast <span class="material-icons">
+                                    check_circle
+                                </span></p>
+                            <p>1,330,181 views.Feb 11, 2022</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Video3 -->
+
+                <div class="single_video">
+
+                    <div class="video_thumbnail">
+                        <div><iframe width="560" height="315" src="https://www.youtube.com/embed/84KulV5_Rwc"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe></div>
+                        <p class="video_time">12:34</p>
+                    </div>
+
+                    <div class="video_details">
+                        <div class="channel_img">
+                            <img src="./Images/saurav.jfif" alt="">
+                        </div>
+                        <div class="video_title">
+                            <h4>Piyush Ka Admission Hogya 😃 New School Mein</h4>
+                            <p>Sourav Joshi Vlogs
+                                <span class="material-icons">
+                                    check_circle
+                                </span></p>
+                            <p>3,309,494 views.Feb 12, 2022</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Video4 -->
+
+                <div class="single_video">
+
+                    <div class="video_thumbnail">
+                        <div><iframe width="560" height="315" src="https://www.youtube.com/embed/zWPsjhBaRb0"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe></div>
+                        <p class="video_time">07:34</p>
+                    </div>
+
+                    <div class="video_details">
+                        <div class="channel_img">
+                            <img src="./Images/yrf.png.png" alt="">
+                        </div>
+                        <div class="video_title">
+                            <h4>Humko Humise Chura Lo Song | Mohabbatein | Shah Rukh Khan, Aishwarya Rai | Lata Mangeshkar, Udit N</h4>
+                            <p>YRF <span class="material-icons">
+                                    check_circle
+                                </span></p>
+                            <p>3,200,055 views. Sep 19, 2019</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Video4 -->
+
+                <div class="single_video">
+
+                    <div class="video_thumbnail">
+                        <div><iframe width="560" height="315" src="https://www.youtube.com/embed/qQNGXAfs5BY"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe></div>
+                        <p class="video_time">09:34</p>
+                    </div>
+
+                    <div class="video_details">
+                        <div class="channel_img">
+                            <img src="./Images/technical guruji.jpg" alt="">
+                        </div>
+                        <div class="video_title">
+                            <h4>Android 13 Is Here - Top Features & How To Install?🔥🔥🔥</h4>
+                            <p>technical guruji<span class="material-icons">
+                                    check_circle
+                                </span></p>
+                            <p>113,537 views. Premiered Feb 7, 2020</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Video5 -->
+
+                <div class="single_video">
+
+                    <div class="video_thumbnail">
+                        <div><iframe width="560" height="315" src="https://www.youtube.com/embed/WjEWp3lhDeU"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe></div>
+                        <p class="video_time">13:34</p>
+                    </div>
+
+                    <div class="video_details">
+                        <div class="channel_img">
+                            <img src="./Images/sony.png" alt="">
+                        </div>
+                        <div class="video_title">
+                            <h4>Ashneer ने चुपके से बनाई Deal Electronic Vehicle "Breeze" के साथ | Shark Tank India | Pitches <p>SET INDIA
+                                    t<span class="material-icons">
+                                        check_circle
+                                    </span></p>
+                                <p>2,157,690 views. Feb 8, 2022</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Video4 -->
+
+                <div class="single_video">
+
+                    <div class="video_thumbnail">
+                        <div><iframe width="560" height="315" src="https://www.youtube.com/embed/rTKblqK60y4 "
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe></div>
+                        <p class="video_time">63:02</p>
+                    </div>
+
+                    <div class="video_details">
+                        <div class="channel_img">
+                            <img src="./Images/sony.png" alt="">
+                        </div>
+                        <div class="video_title">
+                            <h4>The Kapil Sharma Show S2 - Kriti Missed Kapil - Ep -199 - Full Episode - 30 Oct 2021</h4>
+                            <p>SET INDIA<span class="material-icons">
+                                    check_circle
+                                </span></p>
+                            <p>941,238 views. Feb 9, 2022</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Video5 -->
+
+                <div class="single_video">
+
+                    <div class="video_thumbnail">
+                        <div><iframe width="560" height="315" src="https://www.youtube.com/embed/MsdQmuVzaEA"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe></div>
+                        <p class="video_time">06:34</p>
+                    </div>
+
+                    <div class="video_details">
+                        <div class="channel_img">
+                            <img src="./Images/t series.jpg" alt="">
+                        </div>
+                        <div class="video_title">
+                            <h4>teri jhalak asharfi Full Song | Allu Arjun,Rashmika mandanna, teri jhalak asharfi song,sarfi pushpa</h4>
+                            <p>T-SERIES<span class="material-icons">
+                                    check_circle
+                                </span></p>
+                            <p>7,924,858 views. Jan 28, 2022</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Video5 -->
+
+                <div class="single_video">
+
+                    <div class="video_thumbnail">
+                        <div><iframe width="560" height="315" src="https://www.youtube.com/embed/QmP1DcRHzVU "
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe></div>
+                        <p class="video_time">7:34</p>
+                    </div>
+
+                    <div class="video_details">
+                        <div class="channel_img">
+                            <img src="./Images/sony.png" alt="">
+                        </div>
+                        <div class="video_title">
+                            <h4>NEW! Ep 3380 - Phas Gaya Jethalal?! | Taarak Mehta Ka Ooltah Chashmah | तारक मेहता | New Episode</h4>
+                            <p>Taarak mehta ka Ooltah Chashmah<span class="material-icons">
+                                    check_circle
+                                </span></p>
+                            <p>82,140 views. Dec 20, 2020</p>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <!-- Video 6 -->
+                <div class="single_video">
+
+                    <div class="video_thumbnail">
+                        <div><iframe width="560" height="315" src="https://www.youtube.com/embed/DYdVXqXhWyw"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe></div>
+                        <p class="video_time">2:34</p>
+                    </div>
+
+                    <div class="video_details">
+                        <div class="channel_img">
+                            <img src="./Images/code with harry.png" alt="">
+                        </div>
+                        <div class="video_title">
+                            <h4>Use this Frontend Backend combination to become a successful Web Developer!
+                            </h4>
+                            <p>CodeWithHarry <span class="material-icons">
+                                    check_circle
+                                </span></p>
+                            <p>189,850 views. May 24, 2021</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Video4 -->
+
+                <div class="single_video">
+
+                    <div class="video_thumbnail">
+                        <div><iframe width="560" height="315" src="http://www.youtube.com/embed/l8zlKap1JEo "
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe></div>
+                        <p class="video_time">06:43</p>
+                    </div>
+
+                    <div class="video_details">
+                        <div class="channel_img">
+                            <img src="./Images/bb.jfif" alt="">
+                        </div>
+                        <div class="video_title">
+                            <h4>Dhindora | Official Music Video | BB Ki Vines</h4>
+                            <p>
+                                BB Ki Vines
+                                <span class="material-icons">
+                                    check_circle
+                                </span></p>
+                            <p>45,323,239 views. Premiered Dec 9, 2021</p>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- Video5 -->
+
+                <div class="single_video">
+
+                    <div class="video_thumbnail">
+                        <div><iframe width="560" height="315" src="https://www.youtube.com/embed/KnNbplCBCfY "
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe></div>
+                        <p class="video_time">01:23:34</p>
+                    </div>
+
+                    <div class="video_details">
+                        <div class="channel_img">
+                            <img src="./Images/sony music.png" alt="">
+                        </div>
+                        <div class="video_title">
+                            <h4>Old Vs New Bollywood Mashup Songs 2020 //Latest Hindi Remix Mashup 2020 June Indian song love mashup</h4>
+                            <p>
+                                Bollywood Mashup Songs.<span class="material-icons">
+                                    check_circle
+                                </span></p>
+                            <p>68,672 views. Jul 21, 2021</p>
+                        </div>
+                    </div>
+
+                </div>
+
+
+              
+
+               
+
+                
+
+                </div>
+
+
+            </div>
+        </div>
+
+
+        <!-- Video List Ends -->
+
+
+    </div>
+
+
+
+<script src="./index.js"></script>
+
+</body>
+
+</html>
